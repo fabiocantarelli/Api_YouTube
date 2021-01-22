@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express({path:'../../'});
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3333;
 
 const hora = new Date().toLocaleString("pt-BR", {timeZone: "America/Sao_Paulo"});
 require('dotenv').config();
