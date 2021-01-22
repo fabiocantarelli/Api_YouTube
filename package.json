@@ -1,0 +1,19 @@
+{
+  "name": "apiyoutube",
+  "version": "1.0.0",
+  "description": "Cria um arquivo .json com as informações dos ultimos 20 vídeos.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "startMon": "nodemon ./src/index.js"
+  },
+  "author": "Fabio Augusto Cantarelli",
+  "license": "ISC"
+}
