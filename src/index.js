@@ -45,7 +45,7 @@ setInterval(() => {
 
 
 app.get('/', (req, res) => {
-    res.send('Raiz');
+    res.send('Home');
 })
 
 
