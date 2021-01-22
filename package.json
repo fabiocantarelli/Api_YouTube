@@ -12,7 +12,8 @@
   "scripts": {
     "dev": "nodemon ./src/index.js",
     "start": "node ./src/index.js",
-    "startMon": "nodemon ./src/index.js"
+    "prod": "pm2 ./src/index.js"
+
   },
   "author": "Fabio Augusto Cantarelli",
   "license": "ISC"
